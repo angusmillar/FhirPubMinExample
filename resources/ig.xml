@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Hidden IG for de facto IG publishing-->
+<ImplementationGuide xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../fhir-all-xsd/implementationguide.xsd">
+	<id value="icims"/>
+	<url value="https://pyrohealth.net/fhir/icims/ImplementationGuide/icims"/>
+	<version value="1.0.0"/>
+	<name value="Implementation Guide Template"/>
+	<status value="draft"/>
+	<experimental value="true"/>
+	<date value="2019-05-14"/>
+	<publisher value="HL7 Australia"/>
+	<contact>
+		<name value="HL7 Australia Patient Administration Working Group"/>
+		<telecom>
+			<system value="url"/>
+			<value value="http://confluence.hl7australia.com/display/PA/Patient+Administration+Work+Group"/>
+			<use value="work"/>
+		</telecom>
+	</contact>
+	<contact>
+		<name value="Secure Messaging Technical Working Group"/>
+		<telecom> 
+			<system value="url"/>
+			<value value="https://collaborate.digitalhealth.gov.au/display/SMT/Secure+Messaging+TWG+Home"/>
+			<use value="work"/>
+		</telecom>
+	</contact>
+	<fhirVersion value="3.0.1"/>
+	<package>
+		<name value="base"/>
+		<description value="Guidance on the implementation of provider directories using FHIR in an Australian usage context"/>
+		<resource>
+			<example value="false"/>
+			<sourceReference>
+				<reference value="CapabilityStatement/icims-patient"/>
+			</sourceReference>
+		</resource>
+		<resource>
+			<example value="false"/>
+			<sourceReference>
+				<reference value="CapabilityStatement/icims-capability"/>
+			</sourceReference>
+		</resource>				
+		<resource>
+			<example value="false"/>
+			<sourceReference>
+				<reference value="StructureDefinition/icims-organisation"/>
+			</sourceReference>
+		</resource>	   
+		<resource>
+			<example value="false"/>
+			<sourceReference>
+				<reference value="ValueSet/au-physical-states-territories"/>
+			</sourceReference>
+		</resource>			
+		<resource>
+			<example value="true"/>
+			<sourceReference>
+				<reference value="Organization/example0"/>
+			</sourceReference>
+		</resource>				
+	</package>
+	<page>
+		<source value="index.html"/>
+		<title value="Pyro Health Test Pathology Implementation Guide"/>
+		<kind value="page"/>
+	</page>
+</ImplementationGuide>

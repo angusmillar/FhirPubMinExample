@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="icims-patient" />  
+  <text>
+    <status value="generated" /><div xmlns="http://www.w3.org/1999/xhtml">
+  <p>Pyrohealth Australian Patient</p>
+</div></text>
+  <url value="https://pyrohealth.net/fhir/icims/StructureDefinition/icims-patient" />
+  <version value="0.0.1" />
+  <name value="IcimsAuPatient" />
+  <title value="Icims Australian Patient" />
+  <status value="draft" />
+  <date value="2019-06-17"/>
+  <fhirVersion value="3.0.1" />
+  <kind value="resource" />
+  <abstract value="false" />
+  <type value="Patient" />
+  <baseDefinition value="http://hl7.org.au/fhir/StructureDefinition/au-patient" />
+  <derivation value="constraint" /> 
+  <differential>    
+    <element id="Patient">
+      <path value="Patient" />
+      <short value="Test test test" />
+      <definition value="Test test test Definition" />
+    </element>
+    <element id="Patient.meta">
+      <path value="Patient.meta" />
+      <short value="Metadata about the resource (extended)" />
+    </element>
+    <element id="Patient.meta.extension">
+      <path value="Patient.meta.extension" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="url" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+    </element>
+    <element id="Patient.meta.extension:source">
+      <path value="Patient.meta.extension" />
+      <sliceName value="source" />
+      <type>
+        <code value="Extension" />
+        <profile value="http://hl7.org.au/fhir/StructureDefinition/meta-source" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+  </differential>
+</StructureDefinition>
