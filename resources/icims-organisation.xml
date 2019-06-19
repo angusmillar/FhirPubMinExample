@@ -87,7 +87,7 @@
         <strength value="required" />
         <description value="well known state representation" />
         <valueSetReference>
-          <reference value="http://hl7.org.au/fhir/pd/ValueSet/au-physical-states-territories" />
+          <reference value="https://pyrohealth.net/fhir/icims/ValueSet/au-physical-states-territories" />
         </valueSetReference>
       </binding>
     </element>

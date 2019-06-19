@@ -93,6 +93,10 @@
 			"base": "StructureDefinition-icims-organisation.html",
 			"defns": "StructureDefinition-icims-organisation-definitions.html"
 		},
+		"CodeSystem/australian-states-territories-1": {
+			"base": "CodeSystem-australian-states-territories-1.html",
+			"defns": "CodeSystem-australian-states-territories-1-definitions.html"
+		},
 		"ValueSet/au-physical-states-territories": {
 			"base": "ValueSet-au-physical-states-territories.html",
 			"defns": "ValueSet-au-physical-states-territories-definitions.html"

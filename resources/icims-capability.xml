@@ -7,7 +7,7 @@
 			Example PD minimum capability statement
 		</div>
 	</text>
-	<url value="http://hl7.org.au/fhir/pd/CapabilityStatement/icims-capability"/>
+	<url value="https://pyrohealth.net/fhir/icims/CapabilityStatement/icims-capability"/>
 	<version value="1.0"/>
 	<name value="au-pd-capability"/>
 	<status value="active"/>
