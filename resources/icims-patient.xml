@@ -3,7 +3,7 @@
   <id value="icims-patient" />  
   <text>
     <status value="generated" /><div xmlns="http://www.w3.org/1999/xhtml">
-  <p>Pyrohealth Australian Patient Test</p>
+  <p>Pyrohealth Australian Patient</p>
 </div></text>
   <url value="https://pyrohealth.net/fhir/icims/StructureDefinition/icims-patient" />
   <version value="0.0.1" />
